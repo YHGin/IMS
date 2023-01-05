@@ -32,8 +32,10 @@ IMS Mock APP
 12. Folder DepndencyInjection, generic IOC classes handles Service/App register/conrtainer/descrpitor/collection
 13. Release
 	a. Windonws: 
-		i. build artifact, run command in terminal: dotnet publish -c release --self-contained --runtime win-x64 --framework netcoreapp6.0
-		ii.Run command, click IMF.exe in publish folder --> D:\git\IMS\IMS\bin\release\netcoreapp6.0\win-x64\publish\IMF.exe
+		i. build artifact, run command in terminal: 
+		   dotnet publish -c release --self-contained --runtime win-x64 --framework netcoreapp6.0
+		ii.Run command, click IMF.exe in publish folder:
+	           D:\git\IMS\IMS\bin\release\netcoreapp6.0\win-x64\publish\IMF.exe
 	b. Linux: 
 		i.   build artifact run command in terminal:  dotnet publish -c release --self-contained --runtime linux-x64 --framework netcoreapp6.0
 		ii.  I dont have ubuntu installed in my pc, but an ideal sample .sh would be below
