@@ -1,6 +1,7 @@
 # IMS
 IMS Mock APP
 
+0. git clone https://github.com/YHGin/IMS.git IMS
 1. Local vscode run: Launch Program.cs to start IMS signalR WebService
 2. Folder Model contain table attributes and attribute context
 	a. ApplicationDbContext.cs 
